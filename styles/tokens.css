@@ -1,0 +1,167 @@
+  /* PRIMITIVES RADIUS*/
+:root {
+
+--radius-1  : 0.25rem;
+--radius-2  : 0.5rem;
+--radius-3  : 1rem;
+--radius-pill  : 999px;
+  }
+
+  :root {
+    /* component radius */
+    --radius-card: var(--radius-1);
+  
+    /* borders */
+    --border-subtle: var(--neutral-200);
+  }
+
+/* PRIMITIVE BRAND COLORS */
+:root{
+  --brand-50:  #F2EEFA;
+  --brand-100: #E0D7F5;
+  --brand-200: #C1B0EB;
+  --brand-300: #9E82DE;
+  --brand-400: #6F4FD0;
+  --brand-500: #21005D;
+  --brand-600: #1C004F;
+  --brand-700: #170041;
+  --brand-800: #120033;
+  --brand-900: #0C0026;
+}
+
+/* PRIMITIVE NEUTRAL COLORS */
+:root {
+  --neutral-0:   #ffffff;
+  --neutral-50:  #f8fafc;
+  --neutral-100: #f1f5f9;
+  --neutral-200: #e2e8f0;
+  --neutral-300: #cbd5e1;
+  --neutral-400: #94a3b8;
+  --neutral-500: #64748b;
+  --neutral-600: #475569;
+  --neutral-700: #334155;
+  --neutral-800: #1e293b;
+  --neutral-900: #0f172a;
+}
+
+/* PRIMITIVE GENERAL COLORS */
+:root {
+  --general-red: #D62222;
+  --general-green: #15803D;
+  --general-blue: #1884ff;
+  --general-orange: #B45309;
+  
+}
+
+/* =========================
+   SEMANTIC COLORS — LIGHT
+   ========================= */
+   :root {
+    /* backgrounds / surfaces */
+    --surface-default: var(--neutral-0);
+    --surface-canvas: var(--neutral-50);
+  
+  
+    /* text / icons */
+    --fg: var(--neutral-900);
+    --fg-secondary: var(--neutral-700);
+    --fg-success: var(--general-green);
+    --fg-warning: var(--general-orange);
+    --fg-error: var(--general-red);
+
+    
+  }
+
+
+  /* =========================
+   SEMANTIC TOKENS – DARK
+   ========================= */
+
+[data-theme="dark"] {
+  /* Surfaces */
+  --surface-default: var(--neutral-800);
+  --surface-canvas:var(--neutral-900);
+
+  /* Text */
+  --fg-primary: var(--neutral-50);
+  --fg-secondary: var(--neutral-300);
+  --fg-muted: var(--neutral-400);
+
+  /* Borders */
+  --border-subtle: var(--neutral-700);
+  --border-strong: var(--neutral-600);
+
+  /* Brand */
+  --fg-brand: var(--brand-500);
+}
+
+
+  :root {
+    /* spacing */
+    --space-card: 1rem; /* 16px */
+  }
+
+  /* =========================
+   PRIMITIVES — FONT FAMILIES
+   ========================= */
+:root {
+  /* body / ui text */
+  --font-body: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+
+  /* headings / emphasis */
+  --font-heading: "Space Grotesk", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+/* PRIMITIVES — FONT SIZES */
+:root {
+  --size-12: 0.75rem;
+  --size-14: 0.875rem;
+  --size-16: 1rem;
+  --size-18: 1.125rem;
+  --size-20: 1.25rem;
+  --size-24: 1.5rem;
+  --size-30: 1.875rem;
+  --size-36: 2.25rem;
+}
+
+/* PRIMITIVES — FONT WEIGHTS */
+:root {
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+}
+
+/* PRIMITIVES — LINE HEIGHT */
+:root {
+  --leading-tight: 1.2;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.65;
+}
+
+/* SEMANTICS — TYPOGRAPHY ROLES */
+:root {
+  /* Body */
+  --text-xs: var(--size-12);
+  --text-sm: var(--size-14);
+  --text-md: var(--size-16);
+  --text-lg: var(--size-18);
+
+  /* Headings */
+  --heading-3: var(--size-20);
+  --heading-2: var(--size-24);
+  --heading-1: var(--size-30);
+
+  /* Defaults per role */
+  --text-leading: var(--leading-normal);
+  --heading-leading: var(--leading-tight);
+
+  --text-weight: var(--weight-regular);
+  --heading-weight: var(--weight-semibold);
+}
+
+/* SEMANTICS — SEPARATOR, BORDER, DIVIDER */
+
+:root{
+  --border-separator: var(--neutral-200);
+}
